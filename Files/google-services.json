@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "362308327045",
+    "firebase_url": "https://wosafe-5e1fc.firebaseio.com",
+    "project_id": "wosafe-5e1fc",
+    "storage_bucket": "wosafe-5e1fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:362308327045:android:930f7bce88ecaa78df3bec",
+        "android_client_info": {
+          "package_name": "com.saif.wosafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "362308327045-7laq6b3vkdl3mgjmltha56qeq4guok26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMmtjmuT8fad-YpIcBD0OZ_zSYantsYsc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "362308327045-7laq6b3vkdl3mgjmltha56qeq4guok26.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
