@@ -13,4 +13,16 @@ In this era of technological advancements, we often fail to secure the safety of
 
 >"In order to improve women safety in India the first task is to improve the number of women in every sphere of society. Along with that the change in mind set of people is very essential for the safety of women. From family to educational institutions men should be taught about respecting females. Further, there should be fast-track courts to hear the cases and they cases should be investigated in a time bound manner. Only strict laws can not solve the problem of women safety in India rather the implementation of these laws in a time bound manner can solve the issue to a large extent." -[Times of India](https://timesofindia.indiatimes.com/blogs/the-rock-bottom/women-safety-in-india/)
 
+
 >"Safety of women is a major concern and the statistics in India continue to haunt it's women. Amidst the recent cases of violence and rapeculture, is India ready to prioritize the safety of women?" -[NSoJ](https://www.nsoj.in/stories/how-to-ensure-womens-safety-in-india)
+
+
+
+## Technologies Used
+- Android Studio
+- Firebase Firestore
+- Firebase Cloud Messaging
+- Java, XML, JSON
+- Retrofit, Glide
+- Flash, SMS Messaging
+
