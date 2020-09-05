@@ -33,7 +33,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBs3l9-zecaEqAs0ufF1EsOR12_-5B_ODo" />
+            android:value="AIzaSyXX3l9-zecaEqAs0ufF1EsXXX2_-5B_ODo" />
         <meta-data
             android:name="com.google.firebase.messaging.default_notification_color"
             android:resource="@color/colorAccent" />
