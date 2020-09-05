@@ -19,6 +19,12 @@ This is a worldwide problem, some way or the other women are being harassed. We 
 
 <strong>Technology can support the ideas we bring, but we need to apply those ideas in our society.</strong>
 
+## Approach to the Problem
+
+Since we could not change society, so we thought maybe we could give our society a chance to prevent such incidents from happening in the first place. We plan to build an application that would have a Distress button and by pressing this single button the victim could notify the people she had added from her contacts (near ones) by SMS, and also all the people who subscribe to our application with her location using a flash notification.
+
+<strong>We named it 'HALLY' to lay stress on the fact that it's also Her Ally, and we are here to make sure nothing stops her.</strong>
+
 ## Technologies Used
 - Android Studio
 - Firebase Firestore
