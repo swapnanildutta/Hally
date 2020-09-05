@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorWhite">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/CardView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="People near you"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <fragment
+        android:id="@+id/GoogleMap"
+        android:layout_below="@+id/CardView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        />
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@+id/GoogleMap"
+        android:id="@+id/CardView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:text="Active User"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            />
+
+        <TextView
+            android:id="@+id/ActiveUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="0"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="50sp"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@+id/GoogleMap"
+        android:id="@+id/CardView3"
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:text="User in Trouble"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            />
+
+        <TextView
+            android:id="@+id/UserInTrouble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="0"
+            android:layout_gravity="center"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="50sp"
+            />
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
