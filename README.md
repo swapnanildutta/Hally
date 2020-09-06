@@ -51,9 +51,8 @@ Nowadays, self-defense techniques are not just enough for self-protection. A rel
 Thus we have chalked out an impressive measure to thwart such menace which would perhaps not eradicate the matter but do a great deal to that extent. Presenting **Hally** — **Her personal Ally!**
 
 <p align="center">
-<a href="https://www.youtube.com/watch?v=Jkcy9u1knDU">
-<img alt="Hally" src="https://j.gifs.com/r81ZnK.gif" >
-</a></p>
+    <img width='600' src="Images/Hally_architecture.png">
+</p>
 
 ## Technologies Used
 - Android Studio
@@ -65,6 +64,11 @@ Thus we have chalked out an impressive measure to thwart such menace which would
 - Java, XML, JSON
 - Retrofit, Glide
 - Flash, SMS Messaging
+
+<p align="center">
+<a href="https://www.youtube.com/watch?v=Jkcy9u1knDU">
+<img alt="Hally" src="https://j.gifs.com/r81ZnK.gif" >
+</a></p>
 
 ## Preview
 <p align="center">
