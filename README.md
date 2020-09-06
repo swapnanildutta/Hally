@@ -29,6 +29,8 @@ Since we could not change society, so we thought maybe we could give our society
 
 **The safety of women is a global concern. Over the decades, scenarios of kidnapping as well as trafficking (irrespective of gender) are alarmingly on the rise despite different legal actions are in forced.** Woman covers almost half population of the country, so they are half participants in the growth and development of India. We are running in the 21st century, an advanced era, however it is very shameful to say about the doubtful safety of woman in India.
 
+With advancement of tech’s, kidnappers have also become appreciably smart. The modus operandi of kidnapping have also become significantly updated. Generally, after every event of kidnapping, the victims were taken to some unknown places having unsuitable environment and the kidnappers make them captive and seek ransom or do sexual assault. And even sometimes the hostages have to cost their lives if their demands are not fulfilled.
+
 ## Technologies Used
 - Android Studio
 - Firebase Authentication
