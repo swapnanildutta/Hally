@@ -1,5 +1,5 @@
 # Hally - Woman Safety app
->HALLY - it's Her ALLY too!
+>HALLY - Her personal ally!
 
 ## Current Scenario
 
