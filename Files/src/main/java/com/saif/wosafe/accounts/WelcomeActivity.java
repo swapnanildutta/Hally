@@ -60,6 +60,38 @@ public class WelcomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.welcome_activity);
         requestContactPermission();
+        try {
+            db.collection("users")
+                    .whereEqualTo("userUid",firebaseAuth.getUid())
+                    .get()
+                    .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
+                        @Override
+                        public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
+                            ArrayList<String> arrayList = new ArrayList<>();
+                            arrayList.add("100");
+                            NumberList numberList = new NumberList(arrayList);
+                            List<DocumentSnapshot> documentSnapshots = queryDocumentSnapshots.getDocuments();
+                            for(DocumentSnapshot documentSnapshot : documentSnapshots){
+                                documentId = documentSnapshot.getId();
+                            }
+                            try {
+                                db.collection("users")
+                                        .document(documentId)
+                                        .set(numberList, SetOptions.merge());
+                            }catch (Exception e){
+                                e.printStackTrace();
+                            }
+                        }
+                    })
+                    .addOnFailureListener(new OnFailureListener() {
+                        @Override
+                        public void onFailure(@NonNull Exception e) {
+                            e.printStackTrace();
+                        }
+                    });
+        }catch (Exception e){
+            e.printStackTrace();
+        }
         Boolean check = Boolean.valueOf(SharedPrefs.readSharedSetting(WelcomeActivity.this,"sharedPrefs","false"));
         nextButton = findViewById(R.id.NextButton);
         username = findViewById(R.id.UserName);
@@ -97,11 +129,15 @@ public class WelcomeActivity extends AppCompatActivity {
                                         .addOnSuccessListener(new OnSuccessListener<DocumentSnapshot>() {
                                             @Override
                                             public void onSuccess(DocumentSnapshot documentSnapshot) {
-                                                username.setText("Welcome, "+documentSnapshot.get("name").toString());
-                                                List<String> numberList = (List<String>) documentSnapshot.get("numberList");
-                                                assert numberList != null;
-                                                if(numberList.size()>0){
-                                                    str = "true";
+                                                try {
+                                                    username.setText("Welcome, "+documentSnapshot.get("name").toString());
+                                                    List<String> numberList = (List<String>) documentSnapshot.get("numberList");
+                                                    assert numberList != null;
+                                                    if(!numberList.isEmpty()){
+                                                        str = "true";
+                                                    }
+                                                }catch (Exception e){
+                                                    e.printStackTrace();
                                                 }
                                             }
                                         })
