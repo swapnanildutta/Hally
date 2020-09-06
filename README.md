@@ -1,7 +1,7 @@
 # Hally — Woman Safety app
 >HALLY — Her personal ally!
 
-[![HitCount](http://hits.dwyl.com/Neilblaze/Hally.svg)](http://hits.dwyl.com/Neilblaze/Hally) &nbsp; [![HackGujarat](https://img.shields.io/badge/Build%20At-HackGujarat-brightgreen)
+[![HitCount](http://hits.dwyl.com/Neilblaze/Hally.svg)](http://hits.dwyl.com/Neilblaze/Hally) &nbsp;  <img src="https://img.shields.io/badge/Build%20At-HackGujarat-brightgreen">
 
 ## Current Scenario
 
