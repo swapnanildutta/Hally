@@ -70,6 +70,13 @@ Thus we have chalked out an impressive measure to thwart such menace which would
 <img alt="Hally" src="https://j.gifs.com/r81ZnK.gif" >
 </a></p>
 
+### Updates added ~ 06.09.20
+- Cell Triangulation Feature
+- Accurate GPS positioning
+- Location & Data precaching
+- Improved Security
+- Added more system themes
+
 ## Preview
 <p align="center">
     <img width='600' src="Images/Hally.png">
