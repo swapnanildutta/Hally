@@ -27,8 +27,11 @@ Since we could not change society, so we thought maybe we could give our society
 
 ## Technologies Used
 - Android Studio
+- Firebase Authentication
 - Firebase Firestore
 - Firebase Cloud Messaging
+- Firebase Cloud Function
+- Google Maps Api
 - Java, XML, JSON
 - Retrofit, Glide
 - Flash, SMS Messaging
