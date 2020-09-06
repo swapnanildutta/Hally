@@ -809,6 +809,39 @@ public class MainActivity extends AppCompatActivity implements LocationListener,
         location2.setText("Location Updated");
         LatLng latLng = new LatLng(lat,lng);
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng,14));
+        geoPoint = new GeoPoint(location.getLatitude(),location.getLongitude());
+        final GeoPointData geoPointData = new GeoPointData(geoPoint);
+        try {
+            db.collection("users")
+                    .whereEqualTo("userUid",firebaseAuth.getUid())
+                    .get()
+                    .addOnSuccessListener(new OnSuccessListener<QuerySnapshot>() {
+                        @Override
+                        public void onSuccess(QuerySnapshot queryDocumentSnapshots) {
+                            List<DocumentSnapshot> documentSnapshots = queryDocumentSnapshots.getDocuments();
+                            for (DocumentSnapshot documentSnapshot : documentSnapshots) {
+                                documentId = documentSnapshot.getId();
+                                db.collection("users")
+                                        .document(documentId)
+                                        .set(geoPointData, SetOptions.merge())
+                                        .addOnSuccessListener(new OnSuccessListener<Void>() {
+                                            @Override
+                                            public void onSuccess(Void aVoid) {
+                                                //Toast.makeText(MainActivity.this,"Location Updated",Toast.LENGTH_SHORT).show();
+
+                                            }
+                                        });
+                            }
+                        }}).addOnFailureListener(new OnFailureListener() {
+                @Override
+                public void onFailure(@NonNull Exception e) {
+                    e.printStackTrace();
+                    //Toast.makeText(MainActivity.this,"Location Update failure",Toast.LENGTH_SHORT).show();
+                }
+            });
+        }catch (Exception e){
+            e.printStackTrace();
+        }
     }
 
     void getLocation() {
