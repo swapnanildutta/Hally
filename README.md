@@ -51,7 +51,7 @@ Nowadays, self-defense techniques are not just enough for self-protection. A rel
 Thus we have chalked out an impressive measure to thwart such menace which would perhaps not eradicate the matter but do a great deal to that extent. Presenting **Hally** — **Her personal Ally!**
 
 <p align="center">
-    <img width='600' src="Images/Hally_architecture.png">
+    <a href="https://www.youtube.com/watch?v=Jkcy9u1knDU">https://gifs.com/gif/hally-r81ZnK</a>
 </p>
 
 ## Technologies Used
