@@ -1,5 +1,5 @@
-<p align="center">
-    <img width="80" src="https://github.com/Neilblaze/Hally/raw/master/Images/wosafe_intro.png">
+<p align="left" >
+    <img width="130" src="https://github.com/Neilblaze/Hally/raw/master/Images/wosafe_intro.png">
 </p>
 
 # Hally — Woman Safety app
