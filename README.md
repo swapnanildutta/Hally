@@ -19,6 +19,9 @@ This is a worldwide problem, some way or the other women are being harassed. We 
 
 <strong>Technology can support the ideas we bring, but we need to apply those ideas in our society.</strong>
 
+It is well-documented that during a war, a natural disaster or a pandemic, women’s bodies bear the worse brunt of the crisis. Domestic violence against women is already widespread and under-reported in India. **Now, at the time of the COVID-19 pandemic, the United Nations recognises domestic violence against women as a “shadow pandemic”. The COVID-19 pandemic has triggered a huge spike in domestic violence against women in China, Australia, France, the U.K., Spain, and Bangladesh, among others.** In India, too, the National Commission for Women has reported a large increase in distress calls from victims of domestic violence since the pandemic broke out. — [The Hindu](https://www.thehindu.com/opinion/op-ed/womens-safety-during-lockdown/article31324318.ece)
+
+
 ## Approach to the Problem
 
 Since we could not change society, so we thought maybe we could give our society a chance to prevent such incidents from happening in the first place. We plan to build an application that would have a Distress button and by pressing this single button the victim could notify the people she had added from her contacts (near ones) by SMS, and also all the people who subscribe to our application with her location using a flash notification.
