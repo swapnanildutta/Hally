@@ -1,7 +1,7 @@
 # Hally — Woman Safety app
 >HALLY — Her personal ally!
 
-[![HitCount](http://hits.dwyl.com/Neilblaze/Hally.svg)](http://hits.dwyl.com/Neilblaze/Hally) &nbsp; <img src="https://img.shields.io/badge/Build%20At-HackGujarat-brightgreen"> &nbsp; ![GitHub forks](https://img.shields.io/github/forks/Neilblaze/Hally?label=Fork&style=social)
+[![HitCount](http://hits.dwyl.com/Neilblaze/Hally.svg)](http://hits.dwyl.com/Neilblaze/Hally) &nbsp; <img src="https://img.shields.io/badge/Build%20At-HackGujarat-brightgreen"> &nbsp; ![GitHub forks](https://img.shields.io/github/forks/Neilblaze/Hally?label=Fork&style=social) &nbsp; [![GitHub stars](https://img.shields.io/github/stars/Neilblaze/Hally)](https://github.com/Neilblaze/Hally/stargazers) &nbsp; [![GitHub license](https://img.shields.io/github/license/Neilblaze/Hally)](https://github.com/Neilblaze/Hally/blob/master/LICENSE)
 
 ## Current Scenario
 
