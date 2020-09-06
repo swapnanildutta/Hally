@@ -31,6 +31,10 @@ Since we could not change society, so we thought maybe we could give our society
 
 With advancement of tech’s, kidnappers have also become appreciably smart. The modus operandi of kidnapping have also become significantly updated. Generally, after every event of kidnapping, the victims were taken to some unknown places having unsuitable environment and the kidnappers make them captive and seek ransom or do sexual assault. And even sometimes the hostages have to cost their lives if their demands are not fulfilled.
 
+Speaking Globally, according to a survey in 2018 by Forbes and many other trusted websites, India tops a global ranking of most dangerous countries for women.
+
+Source: [poll2018](https://poll2018.trust.org/)  , [bigthink](https://bigthink.com/strange-maps/worst-countries-for-women) 
+
 ## Technologies Used
 - Android Studio
 - Firebase Authentication
