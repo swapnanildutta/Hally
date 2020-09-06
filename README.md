@@ -40,6 +40,9 @@ It is well-documented that during a war, a natural disaster or a pandemic, women
 
 From a practical standpoint, the safety of women is at stake every time they go out at night, especially in less crowded areas and roads. Every day and every minute, some women of all walks of life (a mother, a sister, a wife, teenager girls, and even children) are getting harassed, molested, assaulted, and violated at various places all over the country. It just don’t stop here. Illegal “Human trafficking” in India remains a significant problem. People (both child and adults of both sex) are frequently illegally trafficked through India for the purposes of commercial sexual exploitation and forced/bonded labour.
 
+Nowadays, self-defense techniques are not just enough for self-protection. A reliable, smart measure is required to ensure safety or protection from danger on the fly.
+
+Thus we have chalked out an impressive measure to thwart such menace which would perhaps not eradicate the matter but do a great deal to that extent. Presenting **Hally** — **Her personal Ally!**
 
 ## Technologies Used
 - Android Studio
