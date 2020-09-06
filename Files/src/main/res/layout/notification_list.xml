@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Notification_image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/circle_shape"
+            android:scaleType="centerCrop"
+            />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/Notification_type"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignEnd="@+id/Notification_image"
+            android:layout_alignBottom="@+id/Notification_image"
+            android:background="@drawable/circle_shape"
+            android:scaleType="centerCrop"
+            />
+
+    <TextView
+        android:id="@+id/Notification_text"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_toEndOf="@+id/Notification_image"
+        android:layout_toStartOf="@+id/Notification_edit"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:textColor="#3D3D3D"
+        android:textSize="16.5sp"
+        android:text="Visited Niraj Kumar Tripati recently? Answer a few questions to share more info."
+        />
+
+    <TextView
+        android:id="@+id/Notification_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/Notification_image"
+        android:layout_below="@+id/Notification_text"
+        android:textSize="15dp"
+        android:text="Wed at 4:04 PM"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/Notification_edit"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/circle_shape"
+        android:src="@drawable/more_icon"
+        />
+
+</RelativeLayout>
