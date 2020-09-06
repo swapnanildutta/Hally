@@ -25,6 +25,8 @@ Since we could not change society, so we thought maybe we could give our society
 
 <strong>We named it 'HALLY' to lay stress on the fact that it's also Her Ally, and we are here to make sure nothing stops her.</strong>
 
+## Research done regarding our project
+
 ## Technologies Used
 - Android Studio
 - Firebase Authentication
