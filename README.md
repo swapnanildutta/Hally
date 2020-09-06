@@ -1,6 +1,8 @@
 # Hally — Woman Safety app
 >HALLY — Her personal ally!
 
+[![HitCount](http://hits.dwyl.com/Neilblaze/Hally.svg)](http://hits.dwyl.com/Neilblaze/Hally)
+
 ## Current Scenario
 
 <p align="center">
