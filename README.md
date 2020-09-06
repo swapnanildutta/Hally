@@ -1,5 +1,5 @@
-# Hally
-Woman Safety app - Hally her ally!
+# Hally - Woman Safety app
+>HALLY - Her personal ally!
 
 ## Current Scenario
 
@@ -36,7 +36,7 @@ Since we could not change society, so we thought maybe we could give our society
 - Retrofit, Glide
 - Flash, SMS Messaging
 
-### Preview:~
+## Preview
 <p align="center">
     <img width='600' src="Images/Hally.png">
 </p>
