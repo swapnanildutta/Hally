@@ -27,6 +27,8 @@ Since we could not change society, so we thought maybe we could give our society
 
 ## Research done regarding our project
 
+**The safety of women is a global concern. Over the decades, scenarios of kidnapping as well as trafficking (irrespective of gender) are alarmingly on the rise despite different legal actions are in forced.** Woman covers almost half population of the country, so they are half participants in the growth and development of India. We are running in the 21st century, an advanced era, however it is very shameful to say about the doubtful safety of woman in India.
+
 ## Technologies Used
 - Android Studio
 - Firebase Authentication
