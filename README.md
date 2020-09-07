@@ -1,5 +1,11 @@
+<p align="left" >
+    <img width="130" src="https://github.com/Neilblaze/Hally/raw/master/Images/wosafe_intro.png">
+</p>
+
 # Hally — Woman Safety app
 >HALLY — Her personal ally!
+
+[![HitCount](http://hits.dwyl.com/Neilblaze/Hally.svg)](http://hits.dwyl.com/Neilblaze/Hally) &nbsp; <img src="https://img.shields.io/badge/Build%20At-HackGujarat-brightgreen"> &nbsp; ![GitHub forks](https://img.shields.io/github/forks/Neilblaze/Hally?label=Fork&style=social) &nbsp; [![GitHub stars](https://img.shields.io/github/stars/Neilblaze/Hally)](https://github.com/Neilblaze/Hally/stargazers) &nbsp; [![GitHub license](https://img.shields.io/github/license/Neilblaze/Hally)](https://github.com/Neilblaze/Hally/blob/master/LICENSE)
 
 ## Current Scenario
 
@@ -44,6 +50,10 @@ Nowadays, self-defense techniques are not just enough for self-protection. A rel
 
 Thus we have chalked out an impressive measure to thwart such menace which would perhaps not eradicate the matter but do a great deal to that extent. Presenting **Hally** — **Her personal Ally!**
 
+<p align="center">
+    <img width='600' src="Images/Hally_architecture.png">
+</p>
+
 ## Technologies Used
 - Android Studio
 - Firebase Authentication
@@ -54,6 +64,18 @@ Thus we have chalked out an impressive measure to thwart such menace which would
 - Java, XML, JSON
 - Retrofit, Glide
 - Flash, SMS Messaging
+
+<p align="center">
+<a href="https://www.youtube.com/watch?v=Jkcy9u1knDU">
+<img alt="Hally" src="https://j.gifs.com/r81ZnK.gif" >
+</a></p>
+
+### Updates added ~ 06.09.20
+- Cell Triangulation Feature
+- Accurate GPS positioning
+- Location & Data precaching
+- Improved Security
+- Added more system themes
 
 ## Preview
 <p align="center">
